@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include machine_learn *.css
+recursive-include machine_learn *.csv
+recursive-include machine_learn *.html
+recursive-include machine_learn *.ico
+recursive-include machine_learn *.js
+recursive-include machine_learn *.json
+recursive-include machine_learn *.md
+recursive-include machine_learn *.png
+recursive-include machine_learn *.py
+recursive-include machine_learn *.svg
+recursive-include machine_learn *.txt
+recursive-exclude machine_learn *.pyc
